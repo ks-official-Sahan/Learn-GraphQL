@@ -34,6 +34,15 @@
 $ pnpm install
 ```
 
+## Prisma Client Generation
+
+```bash
+$ pnpm prisma generate
+
+# if it doesn't work run
+$ pnpm prisma db push
+```
+
 ## Environment Variables
 
 **Rename sample.env to .env**
