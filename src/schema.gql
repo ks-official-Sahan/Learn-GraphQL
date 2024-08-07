@@ -1,0 +1,21 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type ResponseDataUserDTO {
+  id: String!
+  email: String!
+}
+
+type Query {
+  run: String!
+}
+
+type Mutation {
+  signIn(userDto: RequestDataUserDTO!): ResponseDataUserDTO!
+}
+
+input RequestDataUserDTO {
+  password: String!
+  email: String!
+}
